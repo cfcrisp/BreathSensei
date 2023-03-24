@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.gradient-container {
+  background: linear-gradient(180deg, #AEDFF7 0%, #E1E5EA 100%);
+  min-height: 100vh; /* This ensures the gradient fills the entire viewport height */
+}
+
+.back-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #4a4a4a; /* dark gray color */
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    position: absolute; /* added to position the back button on the top left */
+    top: 10px; /* adjust this value to move the button up or down */
+    left: 10px; /* adjust this value to move the button left or right */
+  }
+  
+  .back-button:hover {
+    color: #333333; /* slightly darker gray on hover */
+  }
+  
+
+.prompt {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 0; 
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.tiles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 4rem 1rem; /* Updated to have both row and column gaps */
+    justify-items: center;
+    margin: 0rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.tile {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #E1E5EA;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%; 
+}
+
+.tile:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.tile h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.tile p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tile button {
+    background-color: #2D7DA0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.tile button:hover {
+    background-color: #266582;
+}
+
+.tile a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2D7DA0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-decoration: none;
+}
+
+.tile a:hover {
+    background-color: #266582;
+}
+
+.relaxation-tile {
+    background-color: #E1E5EA;
+}
+
+.mental-clarity-tile {
+    background-color: #E1E5EA;
+}
+
+.anxiety-reduction-tile {
+    background-color: #E1E5EA;
+}
+
+.recharge-tile {
+    background-color: #E1E5EA;
+}
+
+.stress-relief-tile {
+    background-color: #E1E5EA;
+}
+
+.mindfulness-tile {
+    background-color: #E1E5EA;
+}
+
+.focus-enhancement-tile {
+    background-color: #E1E5EA;
+}
+
+.energy-boost-tile {
+    background-color: #E1E5EA;
+}
+
+.sleep-improvement-tile {
+    background-color: #E1E5EA;
+}
+.athletic-performance-tile {
+    background-color: #E1E5EA;
+}
