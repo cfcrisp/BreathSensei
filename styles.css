@@ -17,15 +17,15 @@ body {
     padding: 0;
   }
 
-  .gradient-container {
-    background: linear-gradient(180deg,  #AEDFF7 0%, #E1E5EA 100%);
-    min-height: 100vh; /* This ensures the gradient fills the entire viewport height */
-  }
+.gradient-container {
+  background: linear-gradient(180deg,  #AEDFF7 0%, #E1E5EA 100%);
+  min-height: 100vh; /* This ensures the gradient fills the entire viewport height */
+}
   
   
 .container {
   max-width: 1200px;
-  margin: 3rem auto;
+  margin: 1rem auto;
   padding: 0 20px;
   text-align: center;
 }
@@ -96,6 +96,4 @@ footer {
     font-style: italic;
     margin-top: 50px;
   }
-  
-  
   
