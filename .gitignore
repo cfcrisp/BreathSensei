@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Compiled files
+dist/
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.idea/
+
+# Build artifacts
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

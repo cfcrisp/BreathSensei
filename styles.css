@@ -1,0 +1,101 @@
+/*
+Light Blue: #AEDFF7
+Medium Blue: #71BBD9
+Deep Blue: #2D7DA0
+Light Green: #B4E4C1
+Medium Green: #6EC2A3
+Deep Green: #26896C
+Accent color (soft gray): #E1E5EA
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gradient-container {
+    background: linear-gradient(180deg,  #AEDFF7 0%, #E1E5EA 100%);
+    min-height: 100vh; /* This ensures the gradient fills the entire viewport height */
+  }
+  
+  
+.container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 48px;
+  margin: 3rem;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+
+.button {
+  background-color: #2D7DA0;;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #266582;
+}
+
+.wallet-button {
+  font-weight: 600;
+  margin-left: 50px;
+  margin: 3rem;
+}
+
+.cta-button {
+  font-weight: 600;
+  width: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .quote {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 50px;
+  }
+  
+  
+  
