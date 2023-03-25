@@ -7,11 +7,10 @@ const breathingMethods = [
     breathsPerRound: 30,
     retention: 1,
   },
-  // ... Add other methods here ...
   {
-    name: "Box Breathing (4-4-4-4)",
-    seconds: [5, 5, 5, 5],
-    scales: [.2, 1, 1, .2],
+    name: "Box Breathing (5-5-5-5)",
+    seconds: [5, 5, 6, 5],
+    scales: [1, 1, .2, .2],
     breathsPerRound: 25,
     retention: 0,
   },
@@ -39,7 +38,7 @@ const breathingMethods = [
   {
     name: "4-7-8 Breathing (Relaxing Breath)",
     seconds: [4, 7, 8],
-    scales: [.2, 1, .2],
+    scales: [1, 1, .2],
     breathsPerRound: 15,
     retention: 0,
   },

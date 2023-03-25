@@ -59,7 +59,7 @@ function stopBreathing() {
   breathCount = 0;
   breathCounter.textContent = "";
   roundCount = 0;
-  roundCounter.textContent = "";
+  roundCounter.textContent = "Round 0";
 }
 
 function toggleBreathing() {
