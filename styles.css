@@ -92,13 +92,13 @@ p {
 
 footer {
     text-align: center;
-    padding: 80px;
+    padding: 30px;
   }
   
-  .quote {
-    font-size: 17px;
-    font-weight: 300;
-    font-style: italic;
-    margin-top: 50px;
-  }
+.quote {
+  font-size: 17px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 2rem;
+}
   

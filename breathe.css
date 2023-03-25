@@ -27,8 +27,8 @@
     font-weight: 600;
     color: #f8f8f8;
     text-decoration: none;
-    padding: 10px;
-    margin-right: 20px;
+    padding: 5px;
+    margin-right: 10px;
     z-index: 1;
   }
   
@@ -37,7 +37,7 @@
   }
   
   #round-counter {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #f8f8f8;
   }
