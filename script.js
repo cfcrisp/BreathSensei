@@ -32,3 +32,13 @@ tiles.forEach((tile, index) => {
   });
 });
 }
+
+
+/*
+    <footer class="features">
+          <div id="quote" class="quote"></div>
+        </footer>
+        
+    window.addEventListener("load", function() {
+      rotateQuotes();
+    });*/
