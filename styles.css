@@ -21,8 +21,12 @@ body {
   background: linear-gradient(180deg,  #AEDFF7 0%, #E1E5EA 100%);
   min-height: 100vh; /* This ensures the gradient fills the entire viewport height */
 }
-  
-  
+
+.coming-soon {
+  font-size: 10px;
+}
+
+
 .container {
   max-width: 1200px;
   margin: 1rem auto;

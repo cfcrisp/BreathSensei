@@ -1,11 +1,10 @@
 
-if (window.location.pathname.endsWith("index.html")) {
+if (window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/")) {
   const breathButton = document.getElementById("startBreathing");
 
   breathButton.addEventListener('click', () => {
     window.location.href = 'use-cases.html';
   });
-
 
   const quotes = [
       '"The space between your thoughts is a garden of tranquility."',
