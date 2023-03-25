@@ -27,11 +27,22 @@
         </p>
         <button id="startBreathing" class="button cta-button">Begin Breathing</button>
       </div>
+        <footer class="features">
+          <div id="quote" class="quote"></div>
+        </footer>
+      </div>
     </main>
-    <footer class="features">
-      <div id="quote" class="quote"></div>
-    </footer>
-  </div>
   <script src="script.js"></script>
+  <script>
+    const breathButton = document.getElementById("startBreathing");
+
+    breathButton.addEventListener('click', () => {
+      window.location.href = 'use-cases.html';
+    });
+    window.addEventListener("load", function() {
+      rotateQuotes();
+    });  
+  </script>
+  
 </body>
 </html>
