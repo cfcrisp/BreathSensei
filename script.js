@@ -1,5 +1,5 @@
 
-if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
+if (window.location.pathname.endsWith("index.html")) {
   const breathButton = document.getElementById("startBreathing");
 
   breathButton.addEventListener('click', () => {
@@ -31,5 +31,19 @@ if (window.location.pathname.endsWith("index.html") || window.location.pathname 
     
     //rotateQuotes();
     setInterval(rotateQuotes, 30000); // Change quotes every 10 seconds
-     
 } 
+
+
+if (window.location.pathname.endsWith("use-cases.html")) {
+  const tiles = document.querySelectorAll('.tile');
+
+  tiles.forEach((tile, index) => {
+    tile.addEventListener('click', () => {
+      // Construct the URL for the breathing method page
+      const url = `breathe.html?method=${tile.getAttribute('method-index')}`;
+      
+      // Navigate to the breathing method page
+      window.location.href = url;
+    });
+  });
+}

@@ -13,24 +13,24 @@ body {
 }
 
 .gradient-container {
-  background: linear-gradient(180deg, #AEDFF7 0%, #E1E5EA 100%);
-  min-height: 100vh; /* This ensures the gradient fills the entire viewport height */
+  background: #AEDFF7; /*linear-gradient(180deg,  #AEDFF7 0%, #E1E5EA 100%);*/
+  min-height: 100vh; 
 }
 
 .back-button {
     font-size: 16px;
     font-weight: 600;
-    color: #4a4a4a; /* dark gray color */
+    color: #4a4a4a; 
     text-decoration: none;
     padding: 10px;
     margin-left: 20px;
-    position: absolute; /* added to position the back button on the top left */
-    top: 10px; /* adjust this value to move the button up or down */
-    left: 10px; /* adjust this value to move the button left or right */
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
   }
   
   .back-button:hover {
-    color: #333333; /* slightly darker gray on hover */
+    color: #333333; 
   }
   
 
@@ -44,6 +44,7 @@ body {
 
 .header {
     width: 100%;
+    color: #333;
     text-align: center;
     padding: 2rem 0rem;
 }
@@ -51,18 +52,18 @@ body {
 .tiles-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 4rem 1rem; /* Updated to have both row and column gaps */
+    grid-gap: 1rem 1rem;
     justify-items: center;
-    margin: 0rem;
+    margin: 0 auto;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    max-height: 100vh;
+    overflow-y: scroll;
   }
-
-.tile {
+  
+  .tile {
     margin: 1rem;
     padding: 1rem;
-    background-color: #E1E5EA;
+    background-color: #e2e2e2;
     border-radius: 5px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s;
@@ -70,8 +71,12 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 100%; 
-}
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
 .tile:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -83,18 +88,20 @@ body {
     font-weight: 600;
     margin-bottom: 0px;
     text-align: center;
+    align-self: center;
 }
 
 .tile p {
     font-size: 17px;
     font-weight: 300;
-    margin-top: 2rem;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    align-self: flex-start;
 }
 
 .tile button {
-    background-color: #2D7DA0;
+    background-color: #4A4E4D;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -119,7 +126,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #fff;
-    background-color: #2D7DA0;
+    background-color: #4A4E4D;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -129,43 +136,4 @@ body {
 
 .tile a:hover {
     background-color: #266582;
-}
-
-.relaxation-tile {
-    background-color: #E1E5EA;
-}
-
-.mental-clarity-tile {
-    background-color: #E1E5EA;
-}
-
-.anxiety-reduction-tile {
-    background-color: #E1E5EA;
-}
-
-.recharge-tile {
-    background-color: #E1E5EA;
-}
-
-.stress-relief-tile {
-    background-color: #E1E5EA;
-}
-
-.mindfulness-tile {
-    background-color: #E1E5EA;
-}
-
-.focus-enhancement-tile {
-    background-color: #E1E5EA;
-}
-
-.energy-boost-tile {
-    background-color: #E1E5EA;
-}
-
-.sleep-improvement-tile {
-    background-color: #E1E5EA;
-}
-.athletic-performance-tile {
-    background-color: #E1E5EA;
 }

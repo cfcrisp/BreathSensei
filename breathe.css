@@ -1,5 +1,5 @@
   body {
-      background-color: #4a4a4a;
+      background-color: #4c4c4c;
       font-family: 'Poppins', sans-serif;
   }
 
@@ -86,3 +86,19 @@
     color: #fff;
   }
   
+  .back-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f8f8f8; 
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    z-index: 1;
+  }
+  
+  .back-button:hover {
+    color: #b7b7b7; 
+  }
