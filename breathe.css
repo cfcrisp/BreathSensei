@@ -1,11 +1,48 @@
   body {
-      background-color: #4c4c4c;
+      background-color: #646464;
       font-family: 'Poppins', sans-serif;
   }
 
   .hidden {
     display: none;
   }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .back-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    z-index: 1;
+  }
+  
+  .back-button:hover {
+    color: #b7b7b7; 
+  }
+  
+  #round-counter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f8f8;
+  }
+  
+  
 
   .circle-container {
     position: absolute;
@@ -74,31 +111,4 @@
   
   .button:hover {
     background-color: #333333;
-  }
-  
-  #round-counter {
-    position: absolute;
-    margin: 3rem;
-    top: .5rem;
-    right: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .back-button {
-    font-size: 16px;
-    font-weight: 600;
-    color: #f8f8f8; 
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 20px;
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    z-index: 1;
-  }
-  
-  .back-button:hover {
-    color: #b7b7b7; 
   }
