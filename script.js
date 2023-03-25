@@ -1,5 +1,5 @@
 
-if (window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/")) {
+if (window.location.hostname === "breathsensei.io" || window.location.pathname.endsWith("index.html") || window.location.pathname.endsWith("/")) {
   const breathButton = document.getElementById("startBreathing");
 
   breathButton.addEventListener('click', () => {
