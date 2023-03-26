@@ -16,7 +16,7 @@ function rotateQuotes() {
   quoteElement.innerHTML = quotes[randomIndex];
 }
 
-setInterval(rotateQuotes, 30000); // Change quotes every 10 seconds
+/*setInterval(rotateQuotes, 30000); // Change quotes every 10 seconds*/
 
 
 
