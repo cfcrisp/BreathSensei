@@ -19,10 +19,27 @@
     <div class="gradient-container">
       <header class="header">
         <a href="index.html" class="back-button">&larr; Back</a>
-        <h1 class="prompt">Choose Use Case</h1>
       </header>
       <main>
-        <div class="tiles-container">
+        <div class="path-container">
+          <h1 class="title">Choose Your Path</h1>
+          <div class="path-options">
+            <div class="path-option" id="technique-container" data-img="./images/techniques.png">
+              <img src="./images/techniques.png" alt="Technique Image">
+              <h2>Technique</h2>
+            </div>
+            <div class="path-option" id="use-case-container" data-img="./images/use-cases.png">
+              <img src="./images/use-cases.png" alt="Use Case Image">
+              <h2>Use Case</h2>
+            </div>
+          </div>
+        </div>
+        <div class="selected-path hidden">
+          <img src="./images/techniques.png" alt="Selected path option">
+          <h3 class="selected-path-title">Selected path title</h3>
+        </div>
+        
+        <div class="tiles-container use-case-tiles-container">
           <div class="tile relaxation-tile" method-index="1">
             <h2>Relaxation</h2>
             <p>Release tension to put your mind at ease and find tranquility.</p>
@@ -63,7 +80,18 @@
             <h2>Athletic Performance</h2>
             <p>Build your CO2 tolerance for enhanced physical & mental fortitude.</p>
           </div>
-        </main>
+        </div>
+        <div class="tiles-container techniques-tiles-container">
+          <div class="tile wim-hof-tile" method-index="0">
+            <h2>Wim Hof Method</h2>
+            <p>30 breaths, exhale completely, hold for time, inhale with 15 second hold, repeat.</p>
+          </div>
+          <div class="tile method-1-tile" method-index="1">
+            <h2>Other Method</h2>
+            <p>30 breaths, exhale completely, hold for time, inhale with 15 second hold, repeat.</p>
+          </div>
+        </div>
+      </main>
       </div>
     </div>
     <script src="script.js"></script>

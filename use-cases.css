@@ -1,33 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 html, body {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  /*overflow: hidden;*/
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: grid;
+}
   
 body {
   font-family: 'Poppins', sans-serif;
   color: #333;
   box-sizing: border-box;
-  height: 100%;
 }
 
 .gradient-container {
-  background: #AEDFF7; /*linear-gradient(180deg,  #AEDFF7 0%, #E1E5EA 100%);*/
+  background: #AEDFF7;
   min-height: 100vh; 
 }
 
 .back-button {
-    font-size: 16px;
-    font-weight: 600;
-    color: #4a4a4a; 
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 20px;
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-  }
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a4a4a; 
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 20px;
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+}
   
   .back-button:hover {
     color: #333333; 
@@ -35,11 +45,11 @@ body {
   
 
 .prompt {
-    font-size: 48px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-top: 0; 
+  font-size: 45px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 0; 
 }
 
 .header {
@@ -137,4 +147,80 @@ body {
 
 .tile a:hover {
     background-color: #266582;
+}
+
+.path-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: calc(50% - 50px);
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 4rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+.path-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .path-options {
+    flex-direction: column;
+  }
+}
+
+.path-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.path-option:hover {
+  transform: translateY(-10px);
+}
+
+.path-option img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.path-option h2 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.selected-path {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: .5rem;
+  gap: .5rem;
+}
+
+.selected-path img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.selected-path-title {
+  font-size: 1.5rem;
+  margin: 0rem;
+  font-weight: bold;
 }
